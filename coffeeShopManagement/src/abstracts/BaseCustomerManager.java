@@ -2,6 +2,7 @@ package abstracts;
 
 import entities.Customer;
 
+
 public abstract class BaseCustomerManager implements ICustomerCheckService{
 
 	public void Save(Customer customer) throws Exception{
